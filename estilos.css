@@ -1,0 +1,105 @@
+/* Recurso para que funcione lo que utilice bootstrap:  */
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+
+body {
+    background-color: #f4efeb;
+}  
+
+/* Banda que divide la información en el home:  */
+.bandaDivisoria {
+    background-image: url(img/bandashome.png);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    
+}
+
+.tituloPrincipal {
+    font-size: 34px;
+    padding-top: 15px;
+}
+
+.tituloSecundario {
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+
+
+/* Espacio de contenido  */
+.divContenido {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+}
+
+.divMultimedia {
+    text-align: center;
+    padding: 30px;
+}
+
+.imagenHome {
+    width: 500px;
+    height: auto;
+}
+
+.divTexto {
+    text-align: center;
+    padding: 30px;
+}
+
+
+/* Media Queries de bandas  */
+
+@media screen and (max-width: 600px) {
+    .tituloPrincipal {
+        font-size: 30px;
+        padding-top: 15px;
+    }
+    
+    .tituloSecundario {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+}
+
+/* Media Queries de contenido  */
+
+@media screen and (max-width: 1000px){
+    .divContenido {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+        width: 100%;
+    }
+
+    .divMultimedia {
+        text-align: center;
+        padding: 30px;
+    }
+    
+    .imagenHome {
+        width: 500px;
+        height: auto;
+    }
+    
+    .divTexto {
+        text-align: center;
+        padding: 30px;
+    }
+}
+
+
+
